@@ -1,0 +1,15 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:Harsh%40123@localhost/coding",
+        "prod_uri":"mysql://root:Harsh%40123@localhost/coding"
+       
+
+    }
+
+
+
+
+
+}

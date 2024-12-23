@@ -1,0 +1,209 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ event.event_name }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: navy;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+            padding: 15px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .folder-name {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .qr-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .qr-section img {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body> -->
+    <!-- <h1>{{ event.event_name }}</h1>
+    <p>{{ event.description }}</p>
+
+    <h3>Images:</h3>
+    {% for image in event.images %}
+        <div>
+            <p>Folder: {{ image.folder_name }}</p>
+            <img src="{{ url_for('static', filename=image.file_path) }}" alt="Event Image" width="300">
+        </div>
+    {% endfor %}
+
+    <h3>Scan QR Code to View Event:</h3>
+    <img src="{{ url_for('static', filename=event.qr_code) }}" alt="QR Code" width="200"> -->
+    <!-- <h1>{{ event.event_name }}</h1>
+    <p>{{ event.description }}</p>
+
+    <h3 style="text-align: center;">Images:</h3>
+    <div class="card-container">
+        {% for image in event.images %}
+        <div class="card">
+            <p class="folder-name">Folder: {{ image.folder_name }}</p>
+            <img src="{{ url_for('static', filename=image.file_path) }}" alt="Event Image">
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="qr-section">
+        <h3>Scan QR Code to View Event:</h3>
+        <img src="{{ url_for('static', filename=event.qr_code) }}" alt="QR Code" width="200">
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ event.event_name }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: navy;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+            padding: 15px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .folder-name {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            font-size: 14px;
+            color: white;
+            background-color: navy;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+
+        .download-btn:hover {
+            background-color: #003366;
+        }
+
+        .qr-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .qr-section img {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ event.event_name }}</h1>
+    <p>{{ event.description }}</p>
+
+    <h3 style="text-align: center;">Images:</h3>
+    <div class="card-container">
+        {% for image in event.images %}
+        <div class="card">
+            <p class="folder-name">Folder: {{ image.folder_name }}</p>
+            <img src="{{ url_for('static', filename=image.file_path) }}" alt="Event Image">
+            <a href="{{ url_for('static', filename=image.file_path) }}" download class="download-btn">Download</a>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="qr-section">
+        <h3>Scan QR Code to View Event:</h3>
+        <img src="{{ url_for('static', filename=event.qr_code) }}" alt="QR Code" width="200">
+    </div>
+</body>
+</html>
+

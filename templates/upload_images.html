@@ -1,0 +1,25 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/upload.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Upload Images for {{ event.event_name }}</h2>
+    
+    <form action="{{ url_for('upload_images', event_id=event.id) }}" method="POST" enctype="multipart/form-data">
+     <form id="upload-form" action="#" method="POST" enctype="multipart/form-data">
+    <label for="folder_name">Folder Name:</label>
+    <input type="text" id="folder_name" name="folder_name">
+    
+    <label for="images">Select Images:</label>
+    <input type="file" id="images" name="images" multiple required>
+    
+    <button type="submit">Upload Images</button>
+</form>
+<script src="{{ url_for('static',filename='js/upload.js') }}"></script>
+</body>
+</html> -->
+

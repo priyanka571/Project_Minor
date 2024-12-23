@@ -1,0 +1,191 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main Content Styling */
+.content {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Messages */
+.heading h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #222;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Event Section */
+.event-section {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.create-event-container {
+    margin-bottom: 1rem;
+}
+
+.create-event-btn {
+    background-color: navy;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-event-btn:hover {
+    background-color: #0055a4;
+}
+
+/* Your Events Styling */
+.no-events {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.no-events .highlight {
+    color: navy;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.no-events .highlight:hover {
+    text-decoration: underline;
+}
+
+/* Event Cards */
+.event-card {
+    padding: 1rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.event-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    color: #444;
+}
+
+.event-card p {
+    margin: 0 0 1rem;
+    color: #666;
+}
+
+.event-card button {
+    background-color: navy;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.event-card button:hover {
+    background-color: #0055a4;
+}
+
+/* Popup Styling */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    z-index: 1000;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup-content h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.popup-content form label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+.popup-content form input,
+.popup-content form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.popup-content form button {
+    background-color: navy;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-content form button:hover {
+    background-color: #0055a4;
+}
+
+/* Close Button */
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.2rem;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.popup .close:hover {
+    color: #333;
+}

@@ -1,0 +1,452 @@
+2024-12-10 22:08:17,838 - WARNING -  * Debugger is active!
+2024-12-10 22:08:17,838 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:10:55,625 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:10:57,817 - WARNING -  * Debugger is active!
+2024-12-10 22:10:57,817 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:10:58,961 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:11:01,265 - WARNING -  * Debugger is active!
+2024-12-10 22:11:01,271 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:11:12,733 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+2024-12-10 22:11:12,733 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 22:11:12,733 - INFO -  * Restarting with stat
+2024-12-10 22:11:14,332 - WARNING -  * Debugger is active!
+2024-12-10 22:11:14,332 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:11:24,064 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "GET / HTTP/1.1" 200 -
+2024-12-10 22:11:24,309 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:11:24,309 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:11:24,309 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:11:24,309 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:11:24,323 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:11:24,323 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:11:24,339 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/images/geometry.png HTTP/1.1[0m" 304 -
+2024-12-10 22:11:24,339 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:11:24,339 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:24] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:11:33,801 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 22:11:33,832 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "GET / HTTP/1.1" 200 -
+2024-12-10 22:11:33,926 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:11:33,942 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:11:33,942 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:11:33,942 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:11:33,942 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:11:33,957 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:11:33,973 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:11:33,973 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:33] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:11:51,983 - INFO - Created/Found folder: static\uploads\event_1\
+2024-12-10 22:11:51,983 - DEBUG - Saving file IMG_20211114_164610.jpg to path static\uploads\event_1\IMG_20211114_164610.jpg
+2024-12-10 22:11:51,999 - DEBUG - Relative file path for DB: uploads\event_1\IMG_20211114_164610.jpg
+2024-12-10 22:11:52,061 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "[32mPOST /upload_images/1 HTTP/1.1[0m" 302 -
+2024-12-10 22:11:52,077 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "GET /view_event/1 HTTP/1.1" 200 -
+2024-12-10 22:11:52,124 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:11:52,124 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "[33mGET /static/static/uploads\\1\\main\\Screenshot_157.png HTTP/1.1[0m" 404 -
+2024-12-10 22:11:52,124 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "[33mGET /static/static/uploads\\1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:11:52,139 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "[33mGET /static/uploads\\event_1\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:11:52,139 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "[33mGET /static/uploads\\event_1\\download_1.png HTTP/1.1[0m" 404 -
+2024-12-10 22:11:52,139 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "[33mGET /static/uploads\\event_1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:11:52,155 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:11:52,155 - INFO - 127.0.0.1 - - [10/Dec/2024 22:11:52] "GET /static/qrcodes/event_1.png HTTP/1.1" 200 -
+2024-12-10 22:13:44,147 - INFO - 127.0.0.1 - - [10/Dec/2024 22:13:44] "[33mGET /uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:14:04,235 - INFO - 127.0.0.1 - - [10/Dec/2024 22:14:04] "[33mGET /uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:14:16,611 - INFO - 127.0.0.1 - - [10/Dec/2024 22:14:16] "GET /static/uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1" 200 -
+2024-12-10 22:14:39,219 - INFO - 127.0.0.1 - - [10/Dec/2024 22:14:39] "[36mGET /static/uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1[0m" 304 -
+2024-12-10 22:17:38,470 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:17:38,828 - INFO -  * Restarting with stat
+2024-12-10 22:17:40,605 - WARNING -  * Debugger is active!
+2024-12-10 22:17:40,605 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:19:26,096 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:19:26,472 - INFO -  * Restarting with stat
+2024-12-10 22:19:28,249 - WARNING -  * Debugger is active!
+2024-12-10 22:19:28,249 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:19:43,690 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "GET / HTTP/1.1" 200 -
+2024-12-10 22:19:43,926 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:19:43,926 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:19:43,941 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:19:43,941 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:19:43,941 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:19:43,957 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:19:43,957 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/images/geometry.png HTTP/1.1[0m" 304 -
+2024-12-10 22:19:43,957 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:19:43,973 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:43] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:19:52,266 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 22:19:52,282 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "GET / HTTP/1.1" 200 -
+2024-12-10 22:19:52,303 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:19:52,345 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:19:52,360 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:19:52,376 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:19:52,376 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:19:52,392 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:19:52,407 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:19:52,407 - INFO - 127.0.0.1 - - [10/Dec/2024 22:19:52] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:20:15,817 - INFO - Created/Found folder: static\uploads\event_2\
+2024-12-10 22:20:15,817 - DEBUG - Saving file Screenshot_7.png to path static\uploads\event_2\Screenshot_7.png
+2024-12-10 22:20:15,817 - DEBUG - Relative file path for DB: static\uploads\event_2\Screenshot_7.png
+2024-12-10 22:20:15,879 - INFO - 127.0.0.1 - - [10/Dec/2024 22:20:15] "[32mPOST /upload_images/2 HTTP/1.1[0m" 302 -
+2024-12-10 22:20:15,911 - INFO - 127.0.0.1 - - [10/Dec/2024 22:20:15] "GET /view_event/2 HTTP/1.1" 200 -
+2024-12-10 22:20:15,926 - INFO - 127.0.0.1 - - [10/Dec/2024 22:20:15] "[33mGET /static/static\\uploads\\event_2\\Screenshot_7.png HTTP/1.1[0m" 404 -
+2024-12-10 22:20:15,926 - INFO - 127.0.0.1 - - [10/Dec/2024 22:20:15] "[33mGET /static/uploads\\event_2\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:20:15,957 - INFO - 127.0.0.1 - - [10/Dec/2024 22:20:15] "GET /static/qrcodes/event_2.png HTTP/1.1" 200 -
+2024-12-10 22:21:04,910 - INFO - 127.0.0.1 - - [10/Dec/2024 22:21:04] "GET /static/uploads/event_2/Screenshot_7.png HTTP/1.1" 200 -
+2024-12-10 22:24:13,222 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:24:13,520 - INFO -  * Restarting with stat
+2024-12-10 22:24:15,088 - WARNING -  * Debugger is active!
+2024-12-10 22:24:15,088 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:24:21,716 - DEBUG - Image: uploads\event_2\pp.jpg, Folder: 
+2024-12-10 22:24:21,716 - DEBUG - Image: static\uploads\event_2\Screenshot_7.png, Folder: 
+2024-12-10 22:24:21,732 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:21] "GET /view_event/2 HTTP/1.1" 200 -
+2024-12-10 22:24:21,756 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:21] "[33mGET /static/uploads\\event_2\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:24:21,759 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:21] "[33mGET /static/static\\uploads\\event_2\\Screenshot_7.png HTTP/1.1[0m" 404 -
+2024-12-10 22:24:21,838 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:21] "[36mGET /static/qrcodes/event_2.png HTTP/1.1[0m" 304 -
+2024-12-10 22:24:26,675 - DEBUG - Image: uploads\event_2\pp.jpg, Folder: 
+2024-12-10 22:24:26,675 - DEBUG - Image: static\uploads\event_2\Screenshot_7.png, Folder: 
+2024-12-10 22:24:26,675 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:26] "GET /view_event/2 HTTP/1.1" 200 -
+2024-12-10 22:24:26,721 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:26] "[33mGET /static/uploads\\event_2\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:24:26,784 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:26] "[33mGET /static/static\\uploads\\event_2\\Screenshot_7.png HTTP/1.1[0m" 404 -
+2024-12-10 22:24:26,831 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:26] "GET /static/qrcodes/event_2.png HTTP/1.1" 200 -
+2024-12-10 22:24:26,864 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-10 22:24:54,590 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:24:54,924 - INFO -  * Restarting with stat
+2024-12-10 22:24:56,668 - WARNING -  * Debugger is active!
+2024-12-10 22:24:56,668 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:24:58,384 - DEBUG - test----Image: uploads\event_2\pp.jpg, Folder: 
+2024-12-10 22:24:58,384 - DEBUG - test----Image: static\uploads\event_2\Screenshot_7.png, Folder: 
+2024-12-10 22:24:58,400 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:58] "GET /view_event/2 HTTP/1.1" 200 -
+2024-12-10 22:24:58,426 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:58] "[33mGET /static/static\\uploads\\event_2\\Screenshot_7.png HTTP/1.1[0m" 404 -
+2024-12-10 22:24:58,426 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:58] "[33mGET /static/uploads\\event_2\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:24:58,506 - INFO - 127.0.0.1 - - [10/Dec/2024 22:24:58] "[36mGET /static/qrcodes/event_2.png HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,050 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "GET / HTTP/1.1" 200 -
+2024-12-10 22:31:34,071 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,071 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,087 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,087 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,103 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,103 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,103 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,118 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:31:34,118 - INFO - 127.0.0.1 - - [10/Dec/2024 22:31:34] "[36mGET /static/images/geometry.png HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,672 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 22:32:16,687 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "GET / HTTP/1.1" 200 -
+2024-12-10 22:32:16,712 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,730 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,730 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,735 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,735 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,766 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,813 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,828 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:32:16,828 - INFO - 127.0.0.1 - - [10/Dec/2024 22:32:16] "[36mGET /static/images/geometry.png HTTP/1.1[0m" 304 -
+2024-12-10 22:35:54,184 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:35:54,512 - INFO -  * Restarting with stat
+2024-12-10 22:35:56,064 - WARNING -  * Debugger is active!
+2024-12-10 22:35:56,068 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:36:30,147 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+2024-12-10 22:36:30,153 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 22:36:30,153 - INFO -  * Restarting with stat
+2024-12-10 22:36:31,631 - WARNING -  * Debugger is active!
+2024-12-10 22:36:31,631 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:36:35,674 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "GET / HTTP/1.1" 200 -
+2024-12-10 22:36:35,892 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:36:35,902 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:36:35,908 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:36:35,908 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:36:35,924 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:36:35,924 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:36:35,940 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:36:35,940 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:36:35,940 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:35] "[36mGET /static/images/geometry.png HTTP/1.1[0m" 304 -
+2024-12-10 22:36:42,927 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 22:36:42,943 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:42] "GET / HTTP/1.1" 200 -
+2024-12-10 22:36:43,021 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:43] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:36:43,021 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:36:43,037 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:43] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:36:43,037 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:43] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:36:43,037 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:43] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:36:43,052 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:43] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:36:43,068 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:43] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:36:43,068 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:43] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:36:55,995 - INFO - Created/Found folder: static\uploads\event_3\
+2024-12-10 22:36:55,995 - DEBUG - Saving file Screenshot_155.png to path static\uploads\event_3\Screenshot_155.png
+2024-12-10 22:36:55,995 - DEBUG - Relative file path for DB: uploads/event_3/Screenshot_155.png
+2024-12-10 22:36:56,042 - INFO - QR Code saved at: C:\Users\gaura\Desktop\python\frontend\Project_Minor\static\qrcodes\event_3.png
+2024-12-10 22:36:56,058 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:56] "[32mPOST /upload_images/3 HTTP/1.1[0m" 302 -
+2024-12-10 22:36:56,074 - DEBUG - test----Image: uploads/event_3/Screenshot_155.png, Folder: 
+2024-12-10 22:36:56,074 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:56] "GET /view_event/3 HTTP/1.1" 200 -
+2024-12-10 22:36:56,120 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:56] "GET /static/qrcodes/event_3.png HTTP/1.1" 200 -
+2024-12-10 22:36:56,120 - INFO - 127.0.0.1 - - [10/Dec/2024 22:36:56] "GET /static/uploads/event_3/Screenshot_155.png HTTP/1.1" 200 -
+2024-12-10 22:37:38,880 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:38] "GET / HTTP/1.1" 200 -
+2024-12-10 22:37:42,840 - INFO - Created/Found folder: static\uploads\event_1\
+2024-12-10 22:37:42,840 - WARNING - Skipping empty file
+2024-12-10 22:37:42,854 - INFO - QR Code saved at: C:\Users\gaura\Desktop\python\frontend\Project_Minor\static\qrcodes\event_1.png
+2024-12-10 22:37:42,854 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "[32mPOST /upload_images/1 HTTP/1.1[0m" 302 -
+2024-12-10 22:37:42,865 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:42,865 - DEBUG - test----Image: static/uploads\1\main\Screenshot_157.png, Folder: main
+2024-12-10 22:37:42,865 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:42,865 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:42,865 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:42,865 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:42,865 - DEBUG - test----Image: static/uploads\1\pp.jpg, Folder: 
+2024-12-10 22:37:42,865 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:37:42,865 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:37:42,865 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:37:42,865 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:37:42,865 - DEBUG - test----Image: uploads\event_1\IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:37:42,865 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "GET /view_event/1 HTTP/1.1" 200 -
+2024-12-10 22:37:42,880 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:42,896 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "[33mGET /static/static/uploads\\1\\main\\Screenshot_157.png HTTP/1.1[0m" 404 -
+2024-12-10 22:37:42,912 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "[33mGET /static/static/uploads\\1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:42,912 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "[33mGET /static/uploads\\event_1\\download_1.png HTTP/1.1[0m" 404 -
+2024-12-10 22:37:42,912 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "[33mGET /static/uploads\\event_1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:42,927 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "[33mGET /static/uploads\\event_1\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:42,927 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:42,943 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:42] "GET /static/qrcodes/event_1.png HTTP/1.1" 200 -
+2024-12-10 22:37:47,352 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:47] "GET / HTTP/1.1" 200 -
+2024-12-10 22:37:59,720 - INFO - Created/Found folder: static\uploads\event_1\
+2024-12-10 22:37:59,720 - DEBUG - Saving file IMG_20211114_164610.jpg to path static\uploads\event_1\IMG_20211114_164610.jpg
+2024-12-10 22:37:59,735 - DEBUG - Relative file path for DB: uploads/event_1/IMG_20211114_164610.jpg
+2024-12-10 22:37:59,751 - INFO - QR Code saved at: C:\Users\gaura\Desktop\python\frontend\Project_Minor\static\qrcodes\event_1.png
+2024-12-10 22:37:59,751 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "[32mPOST /upload_images/1 HTTP/1.1[0m" 302 -
+2024-12-10 22:37:59,767 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:59,767 - DEBUG - test----Image: static/uploads\1\main\Screenshot_157.png, Folder: main
+2024-12-10 22:37:59,767 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:59,767 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:59,767 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:59,767 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:37:59,767 - DEBUG - test----Image: static/uploads\1\pp.jpg, Folder: 
+2024-12-10 22:37:59,767 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:37:59,767 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:37:59,767 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:37:59,767 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:37:59,767 - DEBUG - test----Image: uploads\event_1\IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:37:59,767 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:37:59,767 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "GET /view_event/1 HTTP/1.1" 200 -
+2024-12-10 22:37:59,782 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:59,798 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "[33mGET /static/static/uploads\\1\\main\\Screenshot_157.png HTTP/1.1[0m" 404 -
+2024-12-10 22:37:59,813 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "[33mGET /static/static/uploads\\1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:59,813 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "[33mGET /static/uploads\\event_1\\download_1.png HTTP/1.1[0m" 404 -
+2024-12-10 22:37:59,829 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "[33mGET /static/uploads\\event_1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:59,829 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "[33mGET /static/uploads\\event_1\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:59,845 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:37:59,845 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "GET /static/qrcodes/event_1.png HTTP/1.1" 200 -
+2024-12-10 22:37:59,860 - INFO - 127.0.0.1 - - [10/Dec/2024 22:37:59] "GET /static/uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1" 200 -
+2024-12-10 22:39:07,492 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:39:07,788 - INFO -  * Restarting with stat
+2024-12-10 22:39:09,536 - WARNING -  * Debugger is active!
+2024-12-10 22:39:09,552 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:39:24,570 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:39:24,892 - INFO -  * Restarting with stat
+2024-12-10 22:39:26,804 - WARNING -  * Debugger is active!
+2024-12-10 22:39:26,819 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:39:39,421 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+2024-12-10 22:39:39,421 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 22:39:39,421 - INFO -  * Restarting with stat
+2024-12-10 22:39:40,977 - WARNING -  * Debugger is active!
+2024-12-10 22:39:40,982 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:39:54,948 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+2024-12-10 22:39:54,948 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 22:39:54,955 - INFO -  * Restarting with stat
+2024-12-10 22:39:56,306 - WARNING -  * Debugger is active!
+2024-12-10 22:39:56,306 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:40:36,725 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+2024-12-10 22:40:36,731 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 22:40:36,735 - INFO -  * Restarting with stat
+2024-12-10 22:40:38,196 - WARNING -  * Debugger is active!
+2024-12-10 22:40:38,211 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:40:47,513 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:47] "GET / HTTP/1.1" 200 -
+2024-12-10 22:40:55,721 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 22:40:55,737 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "GET / HTTP/1.1" 200 -
+2024-12-10 22:40:55,924 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:40:55,939 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:40:55,939 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:40:55,971 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:40:55,971 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:40:55,971 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:40:55,987 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:40:55,987 - INFO - 127.0.0.1 - - [10/Dec/2024 22:40:55] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:41:07,217 - INFO - Created/Found folder: static\uploads\event_1\
+2024-12-10 22:41:07,217 - DEBUG - Saving file IMG_20211114_164610.jpg to path static\uploads\event_1\IMG_20211114_164610.jpg
+2024-12-10 22:41:07,233 - DEBUG - Relative file path for DB: uploads/event_1/IMG_20211114_164610.jpg
+2024-12-10 22:41:07,280 - INFO - QR Code saved at: C:\Users\gaura\Desktop\python\frontend\Project_Minor\static\qrcodes\event_1.png
+2024-12-10 22:41:07,280 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "[32mPOST /upload_images/1 HTTP/1.1[0m" 302 -
+2024-12-10 22:41:07,296 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:41:07,296 - DEBUG - test----Image: static/uploads\1\main\Screenshot_157.png, Folder: main
+2024-12-10 22:41:07,296 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:41:07,296 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:41:07,296 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:41:07,296 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:41:07,296 - DEBUG - test----Image: static/uploads\1\pp.jpg, Folder: 
+2024-12-10 22:41:07,296 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:41:07,296 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:41:07,296 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:41:07,296 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:41:07,296 - DEBUG - test----Image: uploads\event_1\IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:41:07,296 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:41:07,296 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:41:07,296 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "GET /view_event/1 HTTP/1.1" 200 -
+2024-12-10 22:41:07,311 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:41:07,327 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "[33mGET /static/static/uploads\\1\\main\\Screenshot_157.png HTTP/1.1[0m" 404 -
+2024-12-10 22:41:07,327 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "[33mGET /static/static/uploads\\1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:41:07,327 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "[33mGET /static/uploads\\event_1\\download_1.png HTTP/1.1[0m" 404 -
+2024-12-10 22:41:07,342 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "[33mGET /static/uploads\\event_1\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:41:07,342 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "[33mGET /static/uploads\\event_1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:41:07,342 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:41:07,358 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "GET /static/qrcodes/event_1.png HTTP/1.1" 200 -
+2024-12-10 22:41:07,374 - INFO - 127.0.0.1 - - [10/Dec/2024 22:41:07] "GET /static/uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1" 200 -
+2024-12-10 22:43:32,372 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:43:32,710 - INFO -  * Restarting with stat
+2024-12-10 22:43:34,558 - WARNING -  * Debugger is active!
+2024-12-10 22:43:34,558 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:43:35,871 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:43:35,871 - DEBUG - test----Image: static/uploads\1\main\Screenshot_157.png, Folder: main
+2024-12-10 22:43:35,871 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:43:35,871 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:43:35,871 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:43:35,871 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:43:35,871 - DEBUG - test----Image: static/uploads\1\pp.jpg, Folder: 
+2024-12-10 22:43:35,871 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:43:35,871 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:43:35,871 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:43:35,871 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:43:35,871 - DEBUG - test----Image: uploads\event_1\IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:43:35,871 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:43:35,871 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:43:35,871 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:35] "GET /view_event/1 HTTP/1.1" 200 -
+2024-12-10 22:43:35,900 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:35] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:43:35,900 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:35] "[33mGET /static/static/uploads\\1\\main\\Screenshot_157.png HTTP/1.1[0m" 404 -
+2024-12-10 22:43:35,915 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:35] "[33mGET /static/static/uploads\\1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:43:35,915 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:35] "[33mGET /static/uploads\\event_1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:43:35,931 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:35] "[33mGET /static/uploads\\event_1\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:43:35,931 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:35] "[33mGET /static/uploads\\event_1\\download_1.png HTTP/1.1[0m" 404 -
+2024-12-10 22:43:36,009 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:36] "[36mGET /static/uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1[0m" 304 -
+2024-12-10 22:43:36,025 - INFO - 127.0.0.1 - - [10/Dec/2024 22:43:36] "[36mGET /static/qrcodes/event_1.png HTTP/1.1[0m" 304 -
+2024-12-10 22:44:01,234 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+2024-12-10 22:44:01,234 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 22:44:01,234 - INFO -  * Restarting with stat
+2024-12-10 22:44:02,728 - WARNING -  * Debugger is active!
+2024-12-10 22:44:02,733 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:44:05,431 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:05,431 - DEBUG - test----Image: static/uploads\1\main\Screenshot_157.png, Folder: main
+2024-12-10 22:44:05,431 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:05,431 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:05,431 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:05,431 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:05,431 - DEBUG - test----Image: static/uploads\1\pp.jpg, Folder: 
+2024-12-10 22:44:05,431 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:44:05,431 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:44:05,431 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:44:05,431 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:44:05,431 - DEBUG - test----Image: uploads\event_1\IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:44:05,431 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:44:05,431 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:44:05,447 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "GET /view_event/1 HTTP/1.1" 200 -
+2024-12-10 22:44:05,459 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:05,466 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[33mGET /static/static/uploads\\1\\main\\Screenshot_157.png HTTP/1.1[0m" 404 -
+2024-12-10 22:44:05,474 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[33mGET /static/static/uploads\\1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:05,475 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[33mGET /static/uploads\\event_1\\download_1.png HTTP/1.1[0m" 404 -
+2024-12-10 22:44:05,484 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[33mGET /static/uploads\\event_1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:05,488 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[33mGET /static/uploads\\event_1\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:05,495 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:05,578 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[36mGET /static/uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1[0m" 304 -
+2024-12-10 22:44:05,584 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:05] "[36mGET /static/qrcodes/event_1.png HTTP/1.1[0m" 304 -
+2024-12-10 22:44:26,100 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:26] "GET / HTTP/1.1" 200 -
+2024-12-10 22:44:33,768 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 22:44:33,784 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "GET / HTTP/1.1" 200 -
+2024-12-10 22:44:33,818 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:44:33,824 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:44:33,825 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:44:33,829 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:44:33,832 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:44:33,832 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:44:33,832 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:44:33,846 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:33] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:44:37,295 - INFO - Created/Found folder: static\uploads\event_1\
+2024-12-10 22:44:37,295 - WARNING - Skipping empty file
+2024-12-10 22:44:37,323 - INFO - QR Code saved at: C:\Users\gaura\Desktop\python\frontend\Project_Minor\static\qrcodes\event_1.png
+2024-12-10 22:44:37,323 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "[32mPOST /upload_images/1 HTTP/1.1[0m" 302 -
+2024-12-10 22:44:37,339 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:37,339 - DEBUG - test----Image: static/uploads\1\main\Screenshot_157.png, Folder: main
+2024-12-10 22:44:37,339 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:37,339 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:37,339 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:37,339 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:44:37,339 - DEBUG - test----Image: static/uploads\1\pp.jpg, Folder: 
+2024-12-10 22:44:37,339 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:44:37,339 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:44:37,339 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:44:37,339 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:44:37,339 - DEBUG - test----Image: uploads\event_1\IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:44:37,339 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:44:37,339 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:44:37,339 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "GET /view_event/1 HTTP/1.1" 200 -
+2024-12-10 22:44:37,355 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:37,370 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "[33mGET /static/static/uploads\\1\\main\\Screenshot_157.png HTTP/1.1[0m" 404 -
+2024-12-10 22:44:37,370 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "[33mGET /static/static/uploads\\1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:37,386 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "[33mGET /static/uploads\\event_1\\download_1.png HTTP/1.1[0m" 404 -
+2024-12-10 22:44:37,386 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "[33mGET /static/uploads\\event_1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:37,386 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "[33mGET /static/uploads\\event_1\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:44:37,402 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "[36mGET /static/uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1[0m" 304 -
+2024-12-10 22:44:37,417 - INFO - 127.0.0.1 - - [10/Dec/2024 22:44:37] "GET /static/qrcodes/event_1.png HTTP/1.1" 200 -
+2024-12-10 22:47:51,812 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:47:52,121 - INFO -  * Restarting with stat
+2024-12-10 22:47:53,929 - WARNING -  * Debugger is active!
+2024-12-10 22:47:53,945 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:48:04,257 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+2024-12-10 22:48:04,257 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 22:48:04,258 - INFO -  * Restarting with stat
+2024-12-10 22:48:05,630 - WARNING -  * Debugger is active!
+2024-12-10 22:48:05,630 - INFO -  * Debugger PIN: 586-098-378
+2024-12-10 22:48:49,338 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "GET / HTTP/1.1" 200 -
+2024-12-10 22:48:49,572 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:48:49,572 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:48:49,588 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:48:49,619 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:48:49,635 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:48:49,635 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:48:49,635 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:48:49,635 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:48:49,650 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:49] "[36mGET /static/images/geometry.png HTTP/1.1[0m" 304 -
+2024-12-10 22:48:56,137 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-10 22:48:56,153 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "GET / HTTP/1.1" 200 -
+2024-12-10 22:48:56,172 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-12-10 22:48:56,178 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[36mGET /static/css/event.css HTTP/1.1[0m" 304 -
+2024-12-10 22:48:56,179 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2024-12-10 22:48:56,184 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[36mGET /static/css/upload.css HTTP/1.1[0m" 304 -
+2024-12-10 22:48:56,188 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2024-12-10 22:48:56,190 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[36mGET /static/js/event.js HTTP/1.1[0m" 304 -
+2024-12-10 22:48:56,190 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2024-12-10 22:48:56,200 - INFO - 127.0.0.1 - - [10/Dec/2024 22:48:56] "[36mGET /static/js/front.js HTTP/1.1[0m" 304 -
+2024-12-10 22:49:03,887 - INFO - Created/Found folder: static\uploads\event_1\
+2024-12-10 22:49:03,887 - DEBUG - Saving file IMG_20211114_164610.jpg to path static\uploads\event_1\IMG_20211114_164610.jpg
+2024-12-10 22:49:03,903 - DEBUG - Relative file path for DB: uploads/event_1/IMG_20211114_164610.jpg
+2024-12-10 22:49:03,950 - INFO - QR Code saved at: C:\Users\gaura\Desktop\python\frontend\Project_Minor\static\qrcodes\event_1.png
+2024-12-10 22:49:03,965 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:03] "[32mPOST /upload_images/1 HTTP/1.1[0m" 302 -
+2024-12-10 22:49:03,981 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:49:03,981 - DEBUG - test----Image: static/uploads\1\main\Screenshot_157.png, Folder: main
+2024-12-10 22:49:03,981 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:49:03,981 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:49:03,981 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:49:03,981 - DEBUG - test----Image: static/uploads\1\college\IMG_20211114_164610.jpg, Folder: college
+2024-12-10 22:49:03,981 - DEBUG - test----Image: static/uploads\1\pp.jpg, Folder: 
+2024-12-10 22:49:03,981 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:49:03,981 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:49:03,981 - DEBUG - test----Image: uploads\event_1\pp.jpg, Folder: 
+2024-12-10 22:49:03,981 - DEBUG - test----Image: uploads\event_1\download_1.png, Folder: 
+2024-12-10 22:49:03,981 - DEBUG - test----Image: uploads\event_1\IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:49:03,981 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:49:03,981 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:49:03,981 - DEBUG - test----Image: uploads/event_1/IMG_20211114_164610.jpg, Folder: 
+2024-12-10 22:49:03,997 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:03] "GET /view_event/1 HTTP/1.1" 200 -
+2024-12-10 22:49:04,012 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:04] "[33mGET /static/static/uploads\\1\\college\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:49:04,012 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:04] "[33mGET /static/static/uploads\\1\\main\\Screenshot_157.png HTTP/1.1[0m" 404 -
+2024-12-10 22:49:04,028 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:04] "[33mGET /static/static/uploads\\1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:49:04,028 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:04] "[33mGET /static/uploads\\event_1\\download_1.png HTTP/1.1[0m" 404 -
+2024-12-10 22:49:04,028 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:04] "[33mGET /static/uploads\\event_1\\pp.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:49:04,044 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:04] "[33mGET /static/uploads\\event_1\\IMG_20211114_164610.jpg HTTP/1.1[0m" 404 -
+2024-12-10 22:49:04,044 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:04] "GET /static/qrcodes/event_1.png HTTP/1.1" 200 -
+2024-12-10 22:49:04,059 - INFO - 127.0.0.1 - - [10/Dec/2024 22:49:04] "GET /static/uploads/event_1/IMG_20211114_164610.jpg HTTP/1.1" 200 -
+2024-12-10 22:52:26,187 - INFO -  * Detected change in 'C:\\Users\\gaura\\Desktop\\python\\frontend\\Project_Minor\\app.py', reloading
+2024-12-10 22:52:26,482 - INFO -  * Restarting with stat

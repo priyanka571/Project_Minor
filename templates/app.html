@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Click Away From Your Memory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        #geometric-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        /* Header styles */
+        header {
+            padding: 1.5rem;
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            z-index: 1;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: opacity 0.3s ease;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        /* Main content styles */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .create-event-btn {
+            padding: 0.8rem 2rem;
+            font-size: 1.1rem;
+            background: #ff6b6b;
+            border: none;
+            color: white;
+            border-radius: 2rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            margin-bottom: 3rem;
+        }
+
+        .create-event-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Events section */
+        .events-section {
+            width: 100%;
+            max-width: 800px;
+            display: grid;
+            gap: 2rem;
+        }
+
+        .event-category {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .event-category h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .upload-area {
+            border: 2px dashed rgba(255, 255, 255, 0.5);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .upload-area:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .upload-area.dragover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: white;
+        }
+
+        .uploaded-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .uploaded-images img {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+
+        /* Footer styles */
+        footer {
+            padding: 2rem;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            .events-section {
+                gap: 1rem;
+            }
+
+            .event-category {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="geometric-bg"></canvas>
+    
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact us</a>
+            <a href="#">login</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>One Click Away From Your Memory</h1>
+        <button class="create-event-btn">Create Event</button>
+
+        <section class="events-section">
+            <div class="event-category">
+                <h3>College</h3>
+                <div class="upload-area" data-category="college">
+                    <input type="file" hidden multiple accept="image/*">
+                    <p>Click or drag images here to upload</p>
+                </div>
+                <div class="uploaded-images"></div>
+            </div>
+
+            <div class="event-category">
+                <h3>Village</h3>
+                <div class="upload-area" data-category="village">
+                    <input type="file" hidden multiple accept="image/*">
+                    <p>Click or drag images here to upload</p>
+                </div>
+                <div class="uploaded-images"></div>
+            </div>
+
+            <div class="event-category">
+                <h3>Ghar</h3>
+                <div class="upload-area" data-category="ghar">
+                    <input type="file" hidden multiple accept="image/*">
+                    <p>Click or drag images here to upload</p>
+                </div>
+                <div class="uploaded-images"></div>
+            </div>
+
+            <div class="event-category">
+                <h3>Sister</h3>
+                <div class="upload-area" data-category="sister">
+                    <input type="file" hidden multiple accept="image/*">
+                    <p>Click or drag images here to upload</p>
+                </div>
+                <div class="uploaded-images"></div>
+            </div>
+
+            <div class="event-category">
+                <h3>Marriage</h3>
+                <div class="upload-area" data-category="marriage">
+                    <input type="file" hidden multiple accept="image/*">
+                    <p>Click or drag images here to upload</p>
+                </div>
+                <div class="uploaded-images"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script>
+        // Canvas background
+        const canvas = document.getElementById('geometric-bg');
+        const ctx = canvas.getContext('2d');
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        class Triangle {
+            constructor(x, y, size) {
+                this.x = x;
+                this.y = y;
+                this.size = size;
+                this.angle = Math.random() * Math.PI * 2;
+                this.speed = 0.001 + Math.random() * 0.002;
+                this.color = this.generateColor();
+            }
+
+            generateColor() {
+                const colors = [
+                    'rgba(236, 72, 153, 0.3)',  // Pink
+                    'rgba(147, 51, 234, 0.3)',  // Purple
+                    'rgba(59, 130, 246, 0.3)',  // Blue
+                    'rgba(249, 115, 22, 0.3)',  // Orange
+                ];
+                return colors[Math.floor(Math.random() * colors.length)];
+            }
+
+            update() {
+                this.angle += this.speed;
+                this.x += Math.cos(this.angle) * 0.2;
+                this.y += Math.sin(this.angle) * 0.2;
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.moveTo(
+                    this.x + Math.cos(this.angle) * this.size,
+                    this.y + Math.sin(this.angle) * this.size
+                );
+                ctx.lineTo(
+                    this.x + Math.cos(this.angle + 2.0944) * this.size,
+                    this.y + Math.sin(this.angle + 2.0944) * this.size
+                );
+                ctx.lineTo(
+                    this.x + Math.cos(this.angle + 4.1888) * this.size,
+                    this.y + Math.sin(this.angle + 4.1888) * this.size
+                );
+                ctx.closePath();
+                ctx.fillStyle = this.color;
+                ctx.fill();
+            }
+        }
+
+        const triangles = [];
+        const triangleCount = 50;
+
+        for (let i = 0; i < triangleCount; i++) {
+            const x = Math.random() * canvas.width;
+            const y = Math.random() * canvas.height;
+            const size = 50 + Math.random() * 100;
+            triangles.push(new Triangle(x, y, size));
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+            gradient.addColorStop(0, '#f97316');
+            gradient.addColorStop(0.5, '#a855f7');
+            gradient.addColorStop(1, '#3b82f6');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            triangles.forEach(triangle => {
+                triangle.update();
+                triangle.draw();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+
+        // Image upload functionality
+        document.querySelectorAll('.upload-area').forEach(uploadArea => {
+            const input = uploadArea.querySelector('input[type="file"]');
+            const uploadedImages = uploadArea.nextElementSibling;
+
+            uploadArea.addEventListener('click', () => input.click());
+
+            input.addEventListener('change', handleFiles);
+
+            uploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadArea.classList.add('dragover');
+            });
+
+            uploadArea.addEventListener('dragleave', () => {
+                uploadArea.classList.remove('dragover');
+            });
+
+            uploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+                handleFiles.call(input, { target: { files: e.dataTransfer.files } });
+            });
+
+            function handleFiles(e) {
+                const files = [...e.target.files];
+                
+                files.forEach(file => {
+                    if (file.type.startsWith('image/')) {
+                        const reader = new FileReader();
+                        
+                        reader.onload = (e) => {
+                            const img = document.createElement('img');
+                            img.src = e.target.result;
+                            uploadedImages.appendChild(img);
+                        };
+                        
+                        reader.readAsDataURL(file);
+                    }
+                });
+            }
+        });
+
+        // Create Event button
+        document.querySelector('.create-event-btn').addEventListener('click', () => {
+            alert('Please log in to create an event!');
+        });
+    </script>
+</body>
+</html>
